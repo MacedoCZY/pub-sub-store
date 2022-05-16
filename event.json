@@ -1,0 +1,23 @@
+{
+    "name": "Pablo",
+    "email": "pablohuggem@gmail.com",
+    "cpf": "111.111.111-11",
+    "creditCard": {
+        "number": "1111111111111111",
+        "securityNumber": "111"
+    },
+    "products": [
+        {
+            "name": "sim",
+            "value": "100"
+        }
+    ],
+    "address": {
+        "zipCode": "85819380",
+        "street": "Rua do Aleijadinho",
+        "number": "308",
+        "neighborhood": "Universitário",
+        "city": "Cascavel",
+        "state": "Paraná"
+    }
+}

@@ -20,8 +20,13 @@ async function processMessage(msg) {
 }
 
 async function consume() {
+    try {
     console.log(`INSCRITO COM SUCESSO NA FILA: ${process.env.RABBITMQ_QUEUE_NAME}`)
     await (await RabbitMQService.getInstance()).consume(process.env.RABBITMQ_QUEUE_NAME, (msg) => {processMessage(msg)})
+    } catch (error) {
+        console.log(error)
+    }
+
 } 
 
 consume()

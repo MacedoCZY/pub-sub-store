@@ -1,11 +1,12 @@
 {
   "name": "report",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+  "description": "Serviço responsável por gerar relatórios",
+  "main": "app.js",
+  "author": "Pablo Alessandro Santos Hugen",
+  "license": "ISC",
+  "dependencies":{
+    "amqplib": "^0.7.1",
+    "dotenv": "^8.2.0"
+  }
 }
