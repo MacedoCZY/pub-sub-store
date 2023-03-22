@@ -1,6 +1,6 @@
 {
-    "name": "Pablo",
-    "email": "pablohuggem@gmail.com",
+    "name": "Macedo",
+    "email": "gustavomacedo1366@gmail.com",
     "cpf": "111.111.111-11",
     "creditCard": {
         "number": "1111111111111111",
@@ -13,9 +13,9 @@
         }
     ],
     "address": {
-        "zipCode": "85819380",
-        "street": "Rua do Aleijadinho",
-        "number": "308",
+        "zipCode": "85818541",
+        "street": "Rua Verde",
+        "number": "122",
         "neighborhood": "Universitário",
         "city": "Cascavel",
         "state": "Paraná"
